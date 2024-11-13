@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, article, aside, nav, footer {
+    padding: 1rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    height: 10vh;
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+
+aside {
+    background-color: blueviolet;
+    flex: 0 0 20vw;
+}
+
+nav {
+    background-color: blue;
+    flex: 0 0 20vw;
+}
+
+article {
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 10;
+}
+

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 10;
+ }
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 10;
+ }
+ .img-item {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    width: 167px;
+    height: 60px;
+ }
+
+ .img-item2 {
+   width: 100px;
+   display: flex;
+   justify-content: center;
+ }
